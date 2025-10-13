@@ -43,6 +43,10 @@
 
 <br />
 
+> As partially visible in step 8 of creation steps above 
+
+<br />
+
 ```bash
 import azure.functions as func
 import logging
@@ -99,20 +103,27 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 
 <img src="./azure_images/upandrunning.png" alt="Function creted" width="800">
 
+
 <br />
+
 
 <img src="./azure_images/a11.png" alt="Function creted" width="700">
 
 
 <br />
 
+
 <img src="./azure_images/a12_colabcode.png" alt="Function creted" width="800">
 
+
 <br />
+
 
 > #13 was feeling unlucky!
 
+
 <br />
+
 
 <img src="./azure_images/a14.png" alt="Google Colab" width="800">
 
