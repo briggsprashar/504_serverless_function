@@ -3,7 +3,7 @@
 ## Creation
 
 <details>
-<summary>Create</summary>
+<summary>Steps</summary>
 
 <img src="./azure_images/a1.png" alt="Creating Azure Function" width="300">
 <br />
@@ -35,12 +35,65 @@
 <img src="./azure_images/a10.png" alt="Creating Azure Function" width="200">
 
 </details>
+
+<br />
+
+<details>
+<summary>Azure Function Code</summary>
+
+<br />
+
+```bash
+import azure.functions as func
+import logging
+
+app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
+
+@app.route(route="http_trigger1")
+def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
+    logging.info('Python HTTP trigger function processed a request.')
+
+    hba1c_str = req.params.get('hba1c')
+
+    if not hba1c_str:
+        try:
+            req_body = req.get_json()
+            hba1c_str = req_body.get('hba1c')
+        except ValueError:
+            hba1c_str = None
+
+    try:
+        hba1c = float(hba1c_str) if hba1c_str else None
+    except ValueError:
+        hba1c = None
+
+    if hba1c is not None:
+        if hba1c <= 4.0:
+            status = "Cause for concern — please see a doctor"
+        elif 4.1 <= hba1c <= 5.7:
+            status = "Normal (You do not have Diabetes)"
+        elif 5.8 <= hba1c <= 6.5:
+            status = "You Are Prediabetic"
+        else:
+            status = "Abnormal (You Have Diabetes)"
+        message = f"Your HbA1C level is {hba1c}% which means: {status}."
+    else:
+        message = (
+            "This HTTP triggered function executed successfully. "
+            "Enter a 'hba1c' value in the query string or request body to receive an interpretation."
+        )
+
+    return func.HttpResponse(message, status_code=200)
+```
+
+</details>
+
 <br />
 
 ## Validation and Invocation
 
 <details>
-<summary>Validate</summary>
+<summary>Steps</summary>
 
 <br />
 
@@ -63,9 +116,12 @@
 
 <img src="./azure_images/a14.png" alt="Google Colab" width="800">
 
+</details>
+
 <br />
 
-**Google Colab: Azure Invocation Code**
+<details>
+<summary>Google Colab: Azure Invocation Code</summary>
 
 ```bash
 import requests
@@ -86,13 +142,16 @@ print(azure_response.status_code)
 print(azure_response.text)
 ```
 </details>
+
 <br />
 
 <details>
 <summary>Log</summary>
 
 <br />
+
 <img src="./azure_images/a16logs.png" alt="Log" width="800">
+
 <br />
 
 </details>
