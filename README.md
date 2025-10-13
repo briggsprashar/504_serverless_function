@@ -2,10 +2,10 @@
 
 The simple function takes HbA1C values and outputs a response based on tiers listed by [Mayo Clinic](https://www.mayocliniclabs.com/api/sitecore/TestCatalog/DownloadTestCatalog?testId=610441)
 
-- HbA1C `<=4`: **Concerning, see a doctor** esp. for <18 year olds
+- HbA1C `<=4`: **may be of concern, see a doctor** ref range not established for patients <18 year olds
 - HbA1C between `4.1 and 5.7`: **Normal**
-- HbA1C between `5.8 and 6.6`: **Prediabetic**
-- HbA1C `>=6.7`: **Diabetic**
+- HbA1C between `5.8 and 6.4`: **Prediabetic**
+- HbA1C `>=6.5`: **Diabetic**
 
 ### Cloud environments used & regions
 
