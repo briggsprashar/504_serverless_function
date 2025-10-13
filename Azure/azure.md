@@ -113,7 +113,7 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 <br />
 
 
-<img src="./azure_images/a12_colabcode.png" alt="Function creted" width="800">
+<img src="./azure_images/a12_colabcode.png" alt="Function creted" width="700">
 
 
 <br />
