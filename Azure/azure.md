@@ -92,7 +92,6 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 
 </details>
 
-
 ## Validate
 
 <details>
@@ -102,27 +101,19 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 
 <img src="./azure_images/upandrunning.png" alt="Function created" width="800">
 
-
 <br />
-
 
 <img src="./azure_images/a11.png" alt="Function created" width="700">
 
-
 <br />
-
 
 <img src="./azure_images/a12_colabcode.png" alt="Function created" width="700">
 
-
 <br />
-
 
 >  #13 was called-in sick. Unlucky bugger!
 
-
 <br />
-
 
 <img src="./azure_images/a14.png" alt="Google Colab" width="800">
 
@@ -175,25 +166,25 @@ print(azure_response.text)
 
 > HbA1C = 4
 
-<img src="./azure_images/test1.png" alt="Function test" width="300">
+<img src="./azure_images/test1.png" alt="Function test" width="700">
 
 <br />
 
 > HbA1C = 5
 
-<img src="./azure_images/test2.png" alt="Function test" width="300">
+<img src="./azure_images/test2.png" alt="Function test" width="700">
 
 <br />
 
 > HbA1C = 6
 
-<img src="./azure_images/test3.png" alt="Function test" width="300">
+<img src="./azure_images/test3.png" alt="Function test" width="700">
 
 <br />
 
 > HbA1C = 7
 
-<img src="./azure_images/test4.png" alt="Function test" width="300">
+<img src="./azure_images/test4.png" alt="Function test" width="700">
 
 <br />
 </details>
