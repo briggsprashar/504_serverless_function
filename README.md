@@ -77,6 +77,7 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 <details>
  <summary>Narratitve</summary>
 <br />
+
 > Functions in GCP and Azure are both solid options for serverless computing. GCP is not that well suited for traditonal industries like education and helthcare though.
 
 > While **GCP** is all about simplicity and speed, its "stateless" and auto-scalability is conducive more for web/mobile apps/use-cases, especially offering support for many popular programming languages, easy deployment tools like the gcloud command line and web console. But to connect GCP functions and services to other services, the codng etc will ahve to be done separately.  
