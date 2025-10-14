@@ -114,11 +114,23 @@ def hba1c(request):
 
 <br />
 
-> URL run
+> URL run (all scenarios)
 
 <br />
 
-<img src="./gcp_images/g5url_testresponse.png" alt="URL run" width="500">
+<img src="./gcp_images/hba1c4.png" alt="hba1c 4" width="500">
+
+<br />
+
+<img src="./gcp_images/g5url_testresponse.png" alt="hba1c 5" width="500">
+
+<br />
+
+<img src="./gcp_images/hba1c6.png" alt="hba1c 6" width="500">
+
+<br />
+
+<img src="./gcp_images/hba1c7.png" alt="hba1c 7" width="500">
 
 <br />
 
