@@ -1,5 +1,7 @@
 # Serverless Function
 
+## Source
+
 The simple function takes HbA1C values and outputs a response based on tiers listed by [Mayo Clinic](https://www.mayocliniclabs.com/api/sitecore/TestCatalog/DownloadTestCatalog?testId=610441)
 
 - HbA1C `<=4`: **may be of concern, see a doctor** ref range not established for patients <18 year olds
@@ -7,19 +9,19 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 - HbA1C between `5.8 and 6.4`: **Prediabetic**
 - HbA1C `>=6.5`: **Diabetic**
 
-### Cloud environments used & regions
+## Environments & Regions
 
-- Azure: Canada Central
+> Azure: **Canada Central**
 
-- GCP: Europe-West1
+> GCP: **Europe-West1**
 
-### Deployment, execution (URLs and outputs), example requests invocations
+## Deployment Kitchen Sink
 
-- Azure: Listed [here](https://github.com/briggsprashar/504_serverless_function/blob/main/Azure/azure.md)
+> Azure: Listed [here](https://github.com/briggsprashar/504_serverless_function/blob/main/Azure/azure.md)
 
-- GCP: Listed [here](https://github.com/briggsprashar/504_serverless_function/blob/main/GCP/gcp.md)
+> GCP: Listed [here](https://github.com/briggsprashar/504_serverless_function/blob/main/GCP/gcp.md)
 
-### Public endpoint URLs (+ notes on auth: unauthenticated vs key‑based)
+## Endpoint URLs
 
 ### Azure
 
@@ -36,7 +38,7 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 
 > Authorization: **Unauthenticated** by default. <br />Can be toggled on during setup and later.
 
-### Short comparison paragraph of the two clouds.
+## GCP and Azure Comparision
 
 
 
