@@ -222,11 +222,7 @@ def hba1c(request):
 
 <img src="./gcp_images/g17observability_annotations.png" alt="Observability > Annotations" width="700">
 
-
 </details>
-
-<br />
-
 
 ## Security
 

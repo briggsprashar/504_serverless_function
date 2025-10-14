@@ -1,45 +1,45 @@
 # Azure Function
 
-## Creation
+## Create 
 
 <details>
 <summary>Steps</summary>
 
-<img src="./azure_images/a1.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a1.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a2.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a2.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a3.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a3.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a4.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a4.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a5.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a5.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a6.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a6.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a7.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a7.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a8.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a8.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a9.png" alt="Creating Azure Function" width="300">
+<img src="./azure_images/a9.png" alt="Creating Azure Function" width="500">
 <br />
 
-<img src="./azure_images/a10.png" alt="Creating Azure Function" width="200">
+<img src="./azure_images/a10.png" alt="Creating Azure Function" width="500">
 
 </details>
 
-<br />
+## Function Code
 
 <details>
-<summary>Azure Function Code</summary>
+<summary>Code</summary>
 
 <br />
 
@@ -92,22 +92,21 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 
 </details>
 
-<br />
 
-## Validation and Invocation
+## Validate
 
 <details>
 <summary>Steps</summary>
 
 <br />
 
-<img src="./azure_images/upandrunning.png" alt="Function creted" width="800">
+<img src="./azure_images/upandrunning.png" alt="Function created" width="800">
 
 
 <br />
 
 
-<img src="./azure_images/a11.png" alt="Function creted" width="700">
+<img src="./azure_images/a11.png" alt="Function created" width="700">
 
 
 <br />
@@ -119,7 +118,7 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 <br />
 
 
-> #13 was feeling unlucky!
+>  #13 was called-in sick. Unlucky bugger!
 
 
 <br />
@@ -132,9 +131,7 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 <br />
 
 <details>
-<summary>Google Colab</summary>
-
- **REQUESTS INVOCATION CODE**
+<summary>REQUESTS INVOCATION</summary>
 
 ```bash
 import requests
@@ -168,9 +165,8 @@ print(azure_response.text)
 <br />
 
 </details>
-<br />
 
-## Function Run & Test
+## Run & Test
 
 <details>
 <summary>Test</summary>
