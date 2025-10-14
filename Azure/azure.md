@@ -113,7 +113,7 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 <br />
 
 
-<img src="./azure_images/a12_colabcode.png" alt="Function creted" width="700">
+<img src="./azure_images/a12_colabcode.png" alt="Function created" width="700">
 
 
 <br />
@@ -132,7 +132,9 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 <br />
 
 <details>
-<summary>Google Colab: Azure Invocation Code</summary>
+<summary>Google Colab</summary>
+
+ **REQUESTS INVOCATION CODE**
 
 ```bash
 import requests

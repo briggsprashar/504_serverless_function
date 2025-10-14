@@ -11,7 +11,7 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 
 - Azure: Canada Central
 
-- GCP:
+- GCP: Europe-West1
 
 ### Deployment, execution (URLs and outputs), example requests invocations
 
@@ -21,14 +21,20 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 
 ### Public endpoint URLs (+ notes on auth: unauthenticated vs key‑based)
 
-- Azure
-    - [Default domain](https://serverless1-dca6gxfkhadfc0b2.canadacentral-01.azurewebsites.net/)
-    - Endpoint URL: https://serverless1-dca6gxfkhadfc0b2.canadacentral-01.azurewebsites.net/api/http_trigger1?(function_key)
-    - Authorization: Key-based: Can be toggled as Anonymous as well duting setp, which could be for unauthenticated access ... potentially!! :D
+### Azure
 
-- GCP
-    - Endpoint URL:
-    - Auth: unauthenticated by default, and can be toggled on during setup and later.
+> [Default domain](https://serverless1-dca6gxfkhadfc0b2.canadacentral-01.azurewebsites.net/)
+
+> Endpoint URL: https://serverless1-dca6gxfkhadfc0b2.canadacentral-01.azurewebsites.net/api/http_trigger1?(function_key) 
+<br /> **WITH KEY**
+
+> Authorization: **Key-based** by default. <br />Can be toggled as Anonymous as well during setup and later.
+
+### GCP
+
+> [Endpoint URL](https://serverless1-970719512702.europe-west1.run.app) <br /> **NO KEY**
+
+> Authorization: **Unauthenticated** by default. <br />Can be toggled on during setup and later.
 
 ### Short comparison paragraph of the two clouds.
 
