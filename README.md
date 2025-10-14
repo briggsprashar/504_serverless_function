@@ -38,11 +38,11 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 
 > Authorization: **Unauthenticated** by default. <br />Can be toggled on during setup and later.
 
-## Deepdive
-
-### Short comparision
+## Short comparision
 
 > The 2 sections below will establish a more robhust comparision. In short, for traditional industries Azure functions etc seem better. The fact that Azure has authentican by default, and GCP does now, also hints at the different use cases the two target. Azure seems to be more for regulated and hard-wired legacy-based use-cases. Experience-wise, Azure seems more intitutive to work with. It seems Oracle's Lamma would be even more "brick and mortar" because it is widely used in US heathcare. It'd be a good idea to also compare it with Azure and GCP.
+
+## Deepdive
 
 <details>
 <summary>Comparision</summary>
@@ -53,23 +53,22 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 
 | Feature                | GCP (Cloud Functions)                  | Azure Functions                          |
 |------------------------|----------------------------------------|------------------------------------------|
-| Execution Model        | Stateless, auto-scaled (Automatically spins up instances per request, ensuring simplicity and isolation.)                | Stateless, Durable Functions (for workflow orchestration and maintaining state)   |
-| Language Support       | Node.js, Python, Go, Java, .NET, Ruby, PHP (many popular ones here)| C#, JavaScript, Java, Python, PowerShell, TypeScript, F#, custom (Mostly support Microsoft developers)|
-| Deployment Tools       | gcloud CLI, Console, Cloud Build  (designed for straightforward cloud-native deployments.) | Visual Studio, VS Code, Azure CLI, DevOps, GitHub Actions ( integrates tightly with Microsoft tooling.)|
-| Triggers               | HTTP, Pub/Sub, Cloud Storage            | HTTP, Event Grid, Timer, Storage, others |
-| State Management       | Stateless only                          | Durable Functions orchestration and state|
-| Cold Start Optimization| Simplicity prioritized, less optimized  | Premium Plans enable pre-warming         |
-| Integration Approach   | Manual via code                         | Declarative bindings, configuration      |
-| Unique Strength        | Minimalistic, HTTP-native, rapid dev    | State orchestration & MS ecosystem       |
-| Code Editor | Web inline editor in console & Cloud Shell Editor (VS Code based) | VS Code, Visual Studio, Azure Portal editor, browser UI|
-| Testing     | Local unit tests possible, emulator, manual HTTP tests via UI/CLI | Local test with VS Code, Azure CLI, Azure Function Core Tools |
-| Deployment  | gcloud CLI, Cloud Console, Cloud Build pipelines, GitHub Actions | Visual Studio, VS Code, Azure CLI, DevOps, GitHub Actions|
-| Autosave in Editor  | Console editor has autosave, Cloud Shell Editor supports VS Code-like autosave | VS Code/Visual Studio has autosave, browser editor supports  |
-| Logging | Cloud Logging (Stackdriver), log viewer in console, real-time via logging API | Azure Monitor, Application Insights, log streaming in portal  |
-| Execution Model | Stateless, auto-scaled | Stateless; Durable Functions for state|
-| Cold Start Optimization| Simplicity prioritized, some minimum instance options | Premium Plans enable pre-warming |
-| Integration Approach   | Manual via code | Declarative bindings, configuration |
-| Unique Strength        | Minimalistic, HTTP-native, rapid dev | State orchestration, MS ecosystem integration |
+| **Execution Model**        | Stateless, auto-scaled (Automatically spins up instances per request, ensuring simplicity and isolation.)                | Stateless, Durable Functions (for workflow orchestration and maintaining state)   |
+| **Language Support**       | Node.js, Python, Go, Java, .NET, Ruby, PHP (many popular ones here)| C#, JavaScript, Java, Python, PowerShell, TypeScript, F#, custom (Mostly support Microsoft developers)|
+| **Deployment Tools**       | gcloud CLI, Console, Cloud Build  (designed for straightforward cloud-native deployments.) | Visual Studio, VS Code, Azure CLI, DevOps, GitHub Actions ( integrates tightly with Microsoft tooling.)|
+| **Triggers** | HTTP, Pub/Sub, Cloud Storage (primarily event-driven via GCP services)| HTTP, Event Grid, Timer, Storage, others (tight integrations with MSFT tooling)|
+| **State Management**       | Stateless only                          | Durable Functions orchestration and state|
+| **Cold Start Optimization**| Simplicity prioritized, less optimized  | Premium Plans enable **pre-warming**         |
+| **Integration Approach**   | Manual via code                         | **Declarative bindings**, configuration      |
+| **Unique Strength** | Minimalistic, HTTP-native, rapid dev (ideal for lightweight microservices) | State orchestration & MS ecosystem (builtin) |
+| **Code Editor** | Web inline editor in console & Cloud Shell Editor (VS Code based) | VS Code, Visual Studio, Azure Portal editor, browser UI|
+| **Testing**  | Local unit tests possible, emulator, manual HTTP tests via UI/CLI | Local test with VS Code, Azure CLI, Azure Function Core Tools |
+| **Deployment** | Thru gcloud CLI, Cloud Console, Cloud Build pipelines, GitHub Actions | Visual Studio, VS Code, Azure CLI, DevOps, GitHub Actions|
+| **Autosave in Editor**  | Console editor has autosave, Cloud Shell Editor supports VS Code-like autosave | VS Code/Visual Studio has autosave, browser editor supports  |
+| **Logging** | Cloud Logging (Stackdriver), log viewer in console, real-time via logging API | Azure Monitor, Application Insights, log streaming in portal  |
+| **Execution Model** | Stateless, auto-scaled | Stateless; Durable Functions for state|
+| **Integration Approach**   | Manual via code | Declarative bindings, configuration |
+| **Unique Strength**        | Minimalistic, HTTP-native, rapid dev | State orchestration, MS ecosystem integration |
 
 </details>
 
