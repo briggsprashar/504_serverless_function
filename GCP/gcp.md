@@ -110,7 +110,7 @@ def hba1c(request):
 
 <br />
 
-<img src="./gcp_images/g5test_cli.png" alt="CLI run" width="700">
+<img src="./gcp_images/g5test_cli.png" alt="CLI run" width="800">
 
 <br />
 
@@ -131,7 +131,6 @@ def hba1c(request):
 <br />
 
 <img src="./gcp_images/hba1c7.png" alt="hba1c 7" width="600">
-
 
 <br />
 
