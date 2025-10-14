@@ -111,7 +111,7 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
 
 <br />
 
->  #13 was called-in sick. Unlucky bugger!
+>  #13 called-in sick. Unlucky bugger!
 
 <br />
 
