@@ -144,6 +144,40 @@ def hba1c(request):
 
 </details>
 
+<br />
+
+<details>
+<summary>Postman Validation</summary>
+
+<br />
+
+> HbA1C = 4
+
+<img src="./gcp_images/postman_gcp1.png" alt="Postman GCP validation" width="700">
+
+<br />
+
+> HbA1C = 5
+
+<img src="./gcp_images/postman_gcp2.png" alt="Postman GCP validation" width="700">
+
+<br />
+
+> HbA1C = 6.5
+
+<img src="./gcp_images/postman_gcp3.png" alt="Postman GCP validation" width="700">
+
+<br />
+
+> HbA1C = 7
+
+<img src="./gcp_images/postman_gcp4.png" alt="Postman GCP validation" width="700">
+
+</details>
+
+
+
+
 ## Monitor
 
 <details>

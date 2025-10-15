@@ -157,6 +157,15 @@ print(azure_response.text)
 
 </details>
 
+## Postman Validation
+
+<br />
+
+<img src="./azure_images/azure_postman.png" alt="Postman azure validation" width="700">
+
+</details>
+
+
 ## Run & Test
 
 <details>
