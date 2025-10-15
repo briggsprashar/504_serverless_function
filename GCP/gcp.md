@@ -41,13 +41,15 @@ def hba1c(request):
         hba1c = None
 
     if hba1c is not None:
-        if hba1c < 5.7:
-            status = "NORMAL (You Are Free From Diabetes)"
-        elif 5.7 <= hba1c <= 6.4:
+        if hba1c <= 4.0:
+            status = "Cause for concern — please see a doctor"
+        elif 4.1 <= hba1c <= 5.7:
+            status = "Normal (You do not have Diabetes)"
+        elif 5.8 <= hba1c <= 6.4:
             status = "You Are Prediabetic"
         else:
-            status = "ABNORMAL (You Have Diabetes)"
-        message = f"Your HbA1c level is {hba1c}%. Which means \n{status}"
+            status = "Abnormal (You Have Diabetes)"
+        message = f"Your HbA1C level is {hba1c}% which means: {status}."
     else:
         message = (
             "This HTTP triggered function executed successfully.\n"
