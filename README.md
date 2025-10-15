@@ -25,11 +25,11 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 <br />
 
 <details>
-  <summary>Video 2: GCP ☁️</summary>  
+  <summary>Video 3: Quick Walkthrough ☁️</summary>  
 <br />
 <div>
-  <a href="https://www.loom.com/share/5fd55f9054ea49c6ad6b0811a287ead4" target="_blank" style="float: left;">
-    <img style="max-width:200px;" src="https://cdn.loom.com/sessions/thumbnails/5fd55f9054ea49c6ad6b0811a287ead4-8751a2db221c2fc3-full-play.gif" />
+  <a href="https://www.loom.com/share/206d87acf52f43499cb652ebf7d92d41" target="_blank" style="float: left;">
+    <img style="max-width:200px;" src="https://cdn.loom.com/sessions/thumbnails/206d87acf52f43499cb652ebf7d92d41-e7b1a8b684cff848-full-play.gif" />
   </a>
   <div style="clear: both;"></div>
 </div>
@@ -38,11 +38,11 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 <br />
 
 <details>
-  <summary>Video 3: Quick Walkthrough ☁️</summary>  
+  <summary>Video 2: GCP ☁️</summary>  
 <br />
 <div>
-  <a href="https://www.loom.com/share/206d87acf52f43499cb652ebf7d92d41" target="_blank" style="float: left;">
-    <img style="max-width:200px;" src="https://cdn.loom.com/sessions/thumbnails/206d87acf52f43499cb652ebf7d92d41-e7b1a8b684cff848-full-play.gif" />
+  <a href="https://www.loom.com/share/5fd55f9054ea49c6ad6b0811a287ead4" target="_blank" style="float: left;">
+    <img style="max-width:200px;" src="https://cdn.loom.com/sessions/thumbnails/5fd55f9054ea49c6ad6b0811a287ead4-8751a2db221c2fc3-full-play.gif" />
   </a>
   <div style="clear: both;"></div>
 </div>
