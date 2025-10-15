@@ -79,7 +79,7 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 
 ## Short comparision
 
-> The 2 sections below will establish a more robhust comparision. In short, for traditional industries Azure functions etc seem better. The fact that Azure has authentican by default, and GCP does now, also hints at the different use cases the two target. Azure seems to be more for regulated and hard-wired legacy-based use-cases. Experience-wise, Azure seems more intitutive to work with. It seems Oracle's Lamma would be even more "brick and mortar" because it is widely used in US heathcare. It'd be a good idea to also compare it with Azure and GCP.
+> The 2 sections below will establish a more robhust comparision. In short, for traditional industries Azure functions etc seem better. The fact that Azure has authentican by default, and GCP does now, also hints at the different use cases the two target. Azure seems to be more for regulated and hard-wired legacy-based use-cases. Experience-wise, Azure seems more intitutive to work with. It seems Oracle would be even more "brick and mortar" because it is widely used in US heathcare. It'd be a good idea to also compare it with Azure and GCP.
 
 ## Deepdive
 
