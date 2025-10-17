@@ -106,8 +106,6 @@ The simple function takes HbA1C values and outputs a response based on tiers lis
 | **Autosave in Editor**  | Console editor has autosave, Cloud Shell Editor supports VS Code-like autosave | VS Code/Visual Studio has autosave, browser editor supports  |
 | **Logging** | Cloud Logging (Stackdriver), log viewer in console, real-time via logging API | Azure Monitor, Application Insights, log streaming in portal  |
 | **Execution Model** | Stateless, auto-scaled | Stateless; Durable Functions for state|
-| **Integration Approach**   | Manual via code | Declarative bindings, configuration |
-| **Unique Strength**        | Minimalistic, HTTP-native, rapid dev | State orchestration, MS ecosystem integration |
 
 </details>
 
